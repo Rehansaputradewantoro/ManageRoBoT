@@ -56,10 +56,10 @@ async def start_command(client: Midukki_RoboT, message: message()):
             try:
                 user = await client.get_chat_member(Configs.AUTH_CHANNEL, user_ids)
                 if user.status == enums.ChatMemberStatus.BANNED: # Banned chat member
-                    await message.reply(text="""𝚂𝙾𝚁𝚁𝚈 𝚂𝙸𝚁, 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙱𝙰𝙽𝙽𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴""", disable_web_page_preview=True)                  
+                    await message.reply(text="""maaf tuan, anda dilarang menggunakan saya""", disable_web_page_preview=True)                  
                     return
             except UserNotParticipant:
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph//file/ce1294e2c81d09b635736.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
@@ -73,7 +73,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=pr0fess0r_99)                
             except FloodWait as x:
                 await asyncio.sleep(x.value)
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph//file/ce1294e2c81d09b635736.jpg"]
                 pr0fess0r_99 = [
                     [
                         button()
@@ -100,7 +100,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 size = get_size(mrk.file_size)
                 await client.send_cached_media(chat_id=message.from_user.id, file_id=file_id, caption=settings["caption"].format(mention=mention, file_name=title, size=size, caption=mrk.caption))
         except Exception as error:
-            await message.reply_text(f"𝚂𝙾𝙼𝙴𝚃𝙷𝙸𝙽𝙶 𝚆𝙴𝙽𝚃 𝚆𝚁𝙾𝙽𝙶.!\n\n𝙴𝚁𝚁𝙾𝚁:`{error}`")
+            await message.reply_text(f"ada yang.!\n\nSalah :`{error}`")
 
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
@@ -170,7 +170,7 @@ async def send_broadcast(client, message, db, send_msg, temp):
         broadcast_id = ''.join([random.choice(string.ascii_letters) for i in range(3)])
         if not temp.broadcast_ids.get(broadcast_id):
             break
-    out = await message.reply_text(text="**𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙸𝙽𝙸𝚃𝙸𝙰𝚃𝙴𝙳..📣**\n   𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙽𝙾𝚃𝙸𝙵𝙸𝙴𝙳 𝚆𝙸𝚃𝙷 𝙻𝙾𝙶 𝙵𝙸𝙻𝙴 𝚆𝙷𝙴𝙽 𝙰𝙻𝙻 𝚃𝙷𝙴 𝚄𝚂𝙴𝚁𝚂 𝙰𝚁𝙴 𝙽𝙾𝚃𝙸𝙵𝙸𝙴𝙳 🔔")
+    out = await message.reply_text(text="**Gikes Nih..📣**\n Anda akan diberitahu dengan file log ketika semua pengguna diberitahu 🔔")
     start_time = time.time()
     total_users = await db.total_users_count()
     done = 0
@@ -199,9 +199,9 @@ async def send_broadcast(client, message, db, send_msg, temp):
     await asyncio.sleep(3)    
     await out.delete()
     if failed == 0:
-        await message.reply_text(text=f"""**📣 𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝙸𝙽** - `{completed_in}`\n\n𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂 {total_users}.\n𝚃𝙾𝚃𝙰𝙻 𝙳𝙾𝙽𝙴 {done}, {success} 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 & {failed} 𝙵𝙰𝙸𝙻𝙴𝙳""", quote=True)        
+        await message.reply_text(text=f"""**📣 Berhasil Gikes Ke Semuanya** - `{completed_in}`\n\nKelaz {total_users}.\nWow {done}, {success} Sorry kalo Segini {failed} huwaa""", quote=True)        
     else:
-        await message.reply_document(document='broadcast.txt', caption=f"""** 📣 𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝙸𝙽**- `{completed_in}`\n\n𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂 {total_users}.\n𝚃𝙾𝚃𝙰𝙻 𝙳𝙾𝙽𝙴 {done}, {success} 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 & {failed} 𝙵𝙰𝙸𝙻𝙴𝙳""", quote=True)
+        await message.reply_document(document='broadcast.txt', caption=f"""** 📣 Berhasil Gikes Ke Semuanya**- `{completed_in}`\n\nKelaz {total_users}.\nWow {done}, {success} Sorry Kalo Segini {failed} huwaa""", quote=True)
     await aiofiles.os.remove('broadcast.txt')
     
 if __name__ == "__main__":
