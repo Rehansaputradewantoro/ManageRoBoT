@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-<a href="https://telegram.dog/Midukki_Robot">Midukki-RoBoT</a>
+<a href="https://telegram.dog/ZoneDangerSexbot">ZoneDangerSexRoBoT</a>
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 The Telegram Bot to manage and protect groups
 
-Midukki RoBoT simplifies the management, administration and security of your group
+ZoneDangerSex RoBoT simplifies the management, administration and security of your group
 
 ### Credits
 
@@ -35,7 +35,7 @@ Midukki RoBoT simplifies the management, administration and security of your gro
 
 ### Support
 
-Join Our [Telegram Group](https://t.me/+sv5flNs7yew1OTk1) For Support/Assistance And Our [Channel](https://telegram.dog/Mo_Tech_YT) For Updates.
+Join Our [Telegram Group](https://t.me/ZoneDangerSex) For Support/Assistance And Our [Channel](https://telegram.dog/Mo_Tech_YT) For Updates.
 
 Report Bugs, Give Feature Requests There..
 Do Fork And Star The Repository If You Liked It.
@@ -89,7 +89,7 @@ Read this before you start messing up with your edits
 
 • `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel
 
-• `REPO_USERNAME` : Enter Repository name `Midukki-RoBoT`
+• `REPO_USERNAME` : Enter Repository name `ZoneDangerSex-RoBoT`
 
 ##### Must Use Optional Variables
 
@@ -122,7 +122,7 @@ How To Deploy 👉
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/Midukki-RoBoT">
+<a href="https://heroku.com/deploy?template=https://github.com/Rehansaputradewantoro/ManageRoBoT">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -142,7 +142,7 @@ How To Deploy 👉
 <h1>
   <a href="https://github.com/Pr0fess0r-99/Midukki-RoBoT"><img align="left" height="200%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pr0fess0r-99&repo=Midukki-RoBoT&theme=onedark&hide_border=true&hide=html,css&langs_count=7" /></a>
 
-  [![Midukki-RoBoT](https://github-readme-stats.vercel.app/api/pin/?username=PR0FESS0R-99&repo=Midukki-RoBoT&align="center")](https://github.com/PR0FESS0R-99/Midukki-RoBoT)
+  [![Manage-RoBoT](https://github-readme-stats.vercel.app/api/pin/?username=Rehansaputradewantoro&repo=ManageRoBoT&align="center")](https://github.com/Rehansaputradewantoro/ManageRoBoT)
 
 </h1>
 
