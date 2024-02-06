@@ -34,7 +34,7 @@ class Midukki_RoboT(Client):
 
         self.LOGGER(__name__).info(f"@{usr_bot_me.username} based on Pyrogram v{__version__} ")
         self.LOGGER(__name__).info(f"(Layer {layer}) started on @{usr_bot_me.username}. ")
-        self.LOGGER(__name__).info("This BoT Created By @Mo_Tech_YT")        
+        self.LOGGER(__name__).info("This BoT Created By @Revans505")        
         if Configs.LOG_CHANNEL:
             await self.send_logs(int(Configs.LOG_CHANNEL))
 
