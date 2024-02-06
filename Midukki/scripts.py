@@ -1,44 +1,44 @@
 START_TXT = """
-Hello 👋 {mention} 
+Halo 👋 {mention}
 
-I'm <b>{bot}</b> ✨ an advanced telegram Group management
+Saya <b>{bot}</b> ✨ manajemen Grup telegram tingkat lanjut
 
-I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
+Saya di sini untuk membantu Anda mengelola grup Anda! Tekan /bantu untuk mengetahui lebih lanjut tentang cara menggunakan saya secara maksimal..!
 
-Join <b><a href=http://t.me/Mo_Tech_YT>my news channel</a></b> to get information on all the latest updates
+Bergabunglah dengan <b><a href=http://t.me/Revanstoreya>saluran berita saya</a></b> untuk mendapatkan informasi tentang semua pembaruan terkini
 """
 
 HELP_TXT = """
-👋 <b>Hello {mention}!</b>
+👋 <b>Halo {mention}!</b>
 
-I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules          
+Saya Dapat Memandu Anda Melalui Semua Fitur Keren <b>{bot}</b> Dan Cara Menggunakannya dengan Benar. Gunakan Tombol Di Bawah Untuk Menavigasi Semua Modul
 
-📚 <u><b>HelpFull Commands</b></u>:
+📚 <u><b>Banyak Perintah</b></u>:
 
-- /start : Starts me! You've probably already used this!.
-- /help : Sends this message; I'll tell you more about models!
-- /about : Sends this message; I'll tell you more about myself!
-- /donate : Gives you info on how to support me and my creator!
+- /start : Mulai saya! Anda mungkin sudah menggunakan ini!.
+- /help : Mengirim pesan ini; Saya akan bercerita lebih banyak tentang model!
+- /about : Mengirim pesan ini; Saya akan bercerita lebih banyak tentang diri saya!
+- /donate : Memberimu info tentang cara mendukungku dan penciptaku!
 
-<b>All commands can be used with the following: [ / ]</b>
+<b>Semua perintah dapat digunakan dengan yang berikut ini: [ / ]</b>
 """
 
 ABOUT_TXT = """
 [{name}](t.me/{username}) Was created on September 4, 2022
-We are currently developing this bot, using only the Pyrogram library.
+Saat ini kami sedang mengembangkannya sebuah bot, using only the Pyrogram library.
 
-➾ Developers : Muhammed
+➾ Developers : Revans503
 ➾ Language : Python3
 ➾ Framework : Pyrogram
 ➾ Database : Mongo db
 """
 
 DONATE_TXT = """
-If you like this project of mine, you can donate by clicking on the given link
+Jika Anda menyukai proyek saya ini, Anda dapat berdonasi dengan mengklik tautan yang diberikan
 
-Dev : [Muhammed](t.me/Pr0fess0r_99)
-Paytm : [Click Here](https://p.paytm.me/xCTH/7yzmtgie)
-  or UPI `motech8129@okaxis`
+Dev : [Revans](t.me/Revans503)
+Paytm : [Click Here](https://t.me/Revans503)
+  or UPI `@Revanstoreya`
 """
 
 STATUS_TXT = """
@@ -64,14 +64,14 @@ STATUS_TXT = """
 AUTO_TXT = """
 **--MODULE OF AUTOFILTER--**
 
-● I Can Provide Files In Your Group, It Very Easy Way Just Add Me Ro Your Group And Make Me Admin In Your Group, Thats All.. I Will Provide Files From Your Group 
+● Saya Dapat Memberikan File Di Grup Anda, Caranya Sangat Mudah Cukup Tambahkan Saya Ke Grup Anda Dan Jadikan Saya Admin Di Grup Anda, Itu Saja.. Saya Akan Memberikan File Dari Grup Anda 
       
 🔋 **--Usage & Commands--** :
 
-◉ /autofilter : use to turn on & off
-◉ /set_temp : set new result temp
-◉ /del_temp : del seted result temp
-◉ /settings : use to modify autofilter settings
+◉ /autofilter : gunakan untuk menghidupkan & mematikan
+◉ /set_temp : mengatur suhu hasil baru
+◉ /del_temp : menghapus suhu hasil yang disetel
+◉ /settings : digunakan untuk mengubah pengaturan autofilter
 
 🔋 **--Supporting Vars--** :
 
@@ -83,61 +83,61 @@ AUTO_TXT = """
 MANUAL_TXT = """
 **--MODULE OF MANUALFILTER--**
 
-● Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Bot Will Respond Whenever A Keyword Is Found The Message
+● Filter Adalah Fitur Di Mana Pengguna Dapat Mengatur Balasan Otomatis Untuk Kata Kunci Tertentu Dan Bot Akan Merespon Setiap Kali Kata Kunci Ditemukan Pesannya
 
 🔋 **--Note--** :
 
-1. This bot should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+1. Bot ini harus memiliki hak istimewa admin.
+2. hanya admin yang dapat menambahkan filter dalam chat.
+3. tombol peringatan memiliki batas 64 karakter.
 
 🔋 **--Commands and Usage--** :
 
-◉ /add : add a filter in chat
-◉ /filters : list all the filters of a chat
-◉ /del : delete a specific filter in chat
-◉ /delall : delete the whole filters in a chat (chat owner only)
+◉ /add : tambahkan filter dalam obrolan
+◉ /filters : mencantumkan semua filter obrolan
+◉ /del : menghapus filter tertentu dalam obrolan
+◉ /delall : menghapus seluruh filter dalam chat (khusus pemilik chat)
 """
 
 CONNECTION_TXT = """
 **--MODULE OF CONNECTIONS**--
 
-● Used to connect bot to PM for managing filters 
-● it helps to avoid spamming in groups.
+● Digunakan untuk menghubungkan bot ke PM untuk mengelola filter
+● membantu menghindari spamming dalam grup.
 
 🔋 **--NOTE--** :
 
-1. Only admins an add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+1. Hanya admin yang menambahkan koneksi.
+2. Kirim <code>/connect</code> untuk menghubungkan saya ke PM Anda
 
 🔋 **--Commands and Usage--** :
 
-◉ /connect : connect a particular chat to your PM
-◉ /disconnect : disconnect from a chat
-◉ /connections : list all your connections
+◉ /connect : menghubungkan obrolan tertentu ke PM Anda
+◉ /disconnect : memutuskan sambungan dari obrolan
+◉ /connections: daftar semua koneksi Anda
 """
 
 INFO_TXT = """
 **--MODULE OF INFO--**
 
-● Hese are the extra features of this bot
+● Ini adalah fitur tambahan dari bot ini
 
 🔋 **--Commands and Usage--** :
 
-◉ /id : get id of a specifed user.
-◉ /info : get information about a user.
-◉ /json : get json file a user
+◉ /id : dapatkan id pengguna tertentu.
+◉ /info : mendapatkan informasi tentang pengguna.
+◉ /json : dapatkan file json pengguna
 """
 
 SPELL_TXT = """
 **--MODULE OF SPELLCHECK--**
 
-● Everything Related To The Spell Check Module When No AutoFilter Result Are Found 
+● Segala Sesuatu Yang Terkait Dengan Modul Periksa Ejaan Ketika Tidak Ada Hasil Filter Otomatis Yang Ditemukan
 
 🔋 **--Commands & Usage--** :
 
-◉ /set_spell : Set A New SpellCheck Text
-◉ /del_spell : restart Spell Check Message
+◉ /set_spell : Tetapkan Teks Periksa Ejaan Baru
+◉ /del_spell : mulai ulang Pesan Periksa Ejaan
 
 🔋 **--Supporting Vars--** :
 
@@ -145,18 +145,18 @@ SPELL_TXT = """
  • `{query}` : request text 
  • `{title}` : get chat title
 
-> Eg:- /setspell Check Your Spelling {query}
+> Eg:- /setspell Periksa Ejaan Anda {query}
 """
 
 CAP_TXT = """
 **--MODULE OF CUSTOM CAPTION--**
 
-● Use This Feature To Add A Custom Caption To File
+● Gunakan Fitur Ini Untuk Menambahkan Keterangan Khusus Ke File
 
 🔋 **--Commands & Usage--** :
 
-◉ /set_cap : set new file caption 
-◉ /del_cap : restart file caption
+◉ /set_cap : atur keterangan file baru
+◉ /del_cap : memulai ulang keterangan file
 
 🔋 **--Supporting Vars--** :
 
@@ -169,36 +169,36 @@ CAP_TXT = """
 MUTE_TXT = """
 **--MODULE OF MUTE--** 🤐
 
-● some people need to be publicly muted: spammers, annkyances, or just trolls...! this module allows you to do that easily by exposing same commo actions, so everyone will see..!
+● beberapa orang perlu dibungkam secara publik: spammer, annkyances, atau hanya troll...! modul ini memungkinkan Anda melakukannya dengan mudah dengan menampilkan tindakan umum yang sama, sehingga semua orang akan melihatnya!!
 
 🔋 **--Commands and Usage**-- :
 
-◉ /mute : Mute a user
-◉ /unmute : Unmute a user
-◉ /tmute : Temporarily mute a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days
+◉ /mute : Bisukan pengguna
+◉ /unmute : Mengaktifkan suara pengguna
+◉ /tmute : Membisukan pengguna untuk sementara. Contoh nilai waktu: 4m = 4 menit, 3j = 3 jam, 6d = 6 hari
 """
 
 BAN_TXT = """
 **--MODULE OF BAN--** 🚫
 
-● some people need to be publicly banned: spammers, annkyances, or just trolls...! this module allows you to do that easily by exposing same commo actions, so everyone will see..!
+● beberapa orang perlu diblokir secara publik: spammer, annkyances, atau hanya troll...! modul ini memungkinkan Anda melakukannya dengan mudah dengan menampilkan tindakan umum yang sama, sehingga semua orang akan melihatnya..!
 
 🔋 **--Commands and Usage**-- :
 
-◉ /ban : ban a user 
-◉ /unban : unban the user
-◉ /tban : Temporarily ban a user. Example time values: 30s = 30 seconds, 4m = 4 minutes, 3h = 3 hours
+◉ /ban : melarang pengguna
+◉ /unban : membatalkan pemblokiran pengguna
+◉ /tban : Memblokir sementara pengguna. Contoh nilai waktu: 30 detik = 30 detik, 4 menit = 4 menit, 3 jam = 3 jam
 """
 
 PIN_TXT = """
 **--MODULE OF PIN--** 📌
 
-● all the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!
+● semua perintah terkait pin dapat ditemukan di sini; terus perbarui obrolan Anda dengan berita terkini dengan pesan sederhana yang disematkan!!
 
 🔋 **--Commands and Usage**-- :
 
-◉ /pin : Pin the message you replied to message to send a notification to group members
-◉ /unpin : Unpin the current pinned message. if used as a reply, unpins the replied to message
+◉ /pin : Sematkan pesan yang Anda balas pesan untuk mengirim pemberitahuan ke anggota grup
+◉ /unpin : Melepas sematan pesan yang disematkan saat ini. jika digunakan sebagai balasan, lepaskan pin pesan yang dibalas
 """
 
 ADMIN_PANEL = """
@@ -215,53 +215,55 @@ ADMIN_PANEL = """
 
 FILE_CAPTION_TXT = """{file_name}"""
 
-SPELLCHECK_TXT = """Hey Mr 
-Check Your Spelling 
+SPELLCHECK_TXT = """Hai Tuan
+Periksa Ejaan Anda
 """
 
 IMDB_TEMPLATE_TXT = """
-🙋‍♂️ Hey {mention} Your Requested {query} is ready 👍
+🙋‍♂️ Hai {mention} {query} Permintaan Anda sudah siap 👍
 """
 
-WELCOME_TXT = """
-Hai {mention}
+SELAMAT DATANG_TXT = """
+Hai {sebutkan}
 
-Welcome To {chat} ❣️
+Selamat datang di {obrolan} ❣️
 """
 
-SEND_LOGS_A = """
+KIRIM_LOGS_A = """
 #BOT_STARTED"""
 
 PURGE_TXT = """
-**--MODULE OF PURGE--** 🗑️
+**--MODULE PURGE--** 🗑️
 
-Delete A Lot Of Messages From Groups!
+Hapus Banyak Pesan Dari Grup!
 
-🔋 **--Commands and Usage**-- :
+🔋 **--Perintah dan Penggunaan**-- :
 
-● /purge : Delete All Messages From The Replied To Message, To The Current Message
+● /purge : Menghapus Semua Pesan Dari Pesan yang Dibalas, Hingga Pesan Saat Ini
 """
 
 TELEGRAPH_TXT = """
-**--MODULE OF TE.LEGRA.PH--** 🗑️
+**--MODULE TE.LEGRA.PH--** 🗑️
 
-• Do as you wish with telegra.ph module!
-• This Command Is Available in goups and pms
-• This Command Can be used by everyone
+• Lakukan sesuka Anda dengan modul telegra.ph!
+• Perintah ini Tersedia dalam goups dan pms
+• Perintah ini Dapat digunakan oleh semua orang
 
-🔋 **--Commands and Usage**-- :
+🔋 **--Perintah dan Penggunaan**-- :
 
-● /telegraph - Send me this command reply with picture or video file Under (5MB) 
+● /telegraph - Kirimi saya balasan perintah ini dengan file gambar atau video Di Bawah (5MB)
 """
 
 TTS_TXT = """
-**--MODULE OF TTS--** 🗑️
+**--MODUL TTS--** 🗑️
 
-Translate text to speech
+Terjemahkan teks ke ucapan
 
-🔋 **--Commands and Usage**-- :
+🔋 **--Perintah dan Penggunaan**-- :
 
-● /tts  : convert text to speech
+● /tts : mengubah teks menjadi ucapan
+"""Hai Tuan
+Periksa Ejaan Anda
 """
 
 
